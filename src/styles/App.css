@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    border-bottom: 5px solid black;
+    margin-bottom: 50px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    transition: 0.2s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav ul li a:hover{
+    color: red; 
+}

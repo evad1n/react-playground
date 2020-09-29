@@ -1,0 +1,51 @@
+.list-table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0 0.2rem;
+}
+
+.list-table thead{
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.list-table tbody tr:nth-child(odd){
+    background-color: #ddd;
+    border-top: 10px;
+}
+
+.input{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    border: 4px solid blue;
+    border-radius: 15px;
+    background-color: grey;
+    padding-top: 15px;
+}
+
+.input-text{
+    display: inline;
+}
+
+.list-container button{
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: lightblue;
+}
+
+.list-container button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.input button{
+    position: relative;
+    top: -5px;
+}
